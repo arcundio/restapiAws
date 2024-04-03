@@ -24,6 +24,7 @@ stages:
 - stage: Build
   displayName: Build stage
   jobs:
+
   - job: MavenPackageAndPublishArtifacts
     displayName: Maven Package and Publish Artifacts
     pool:
